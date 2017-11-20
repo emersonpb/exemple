@@ -1,6 +1,6 @@
 public class Matematica{
-	public static int soma(int a, int b){
-		return a + b;
+	public static String soma(int a, int b){
+		return "Result" + String.valueOf(a + b);
 	}
 
 }
